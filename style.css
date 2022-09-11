@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Source+Sans+Pro:wght@400;600;700&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #ffff;
+}
+
+header {
+    min-height: 1000px;
+    background-image: url(/images/luca-bravo-ESkw2ayO2As-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__top {
+    height: 120px;
+    /* background-color: #324530; */
+    opacity: 0.7;
+    padding-top: 60px;
+    margin-bottom: 110px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    /* padding-top: 20px; */
+    padding: 0 15px;
+}
+
+.header__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+
+.header__links ul {
+    display: flex;
+    list-style: none;
+}
+
+.header__links li+li {
+    padding-left: 20px;
+}
+
+.header__links a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #324530;
+    opacity: 0.9;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.header__links a:hover {
+    background-color: aliceblue;
+    color: #324530;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+
+/* section main */
+
+.main__title {
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.main__title a {
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.content__items {
+    position: relative;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 80px;
+}
+
+.about {
+    margin-bottom: 40px;
+    padding: 30px 15px;
+    color: burlywood;
+    font-size: 30px;
+    position: absolute;
+    right: 500px;
+    top: -100px;
+    font-weight: 400;
+}
+
+.text {
+    max-width: 300px;
+    color: rgb(6, 7, 3);
+    margin-right: 70px;
+}
+
+.content__item-2 {
+    justify-content: center;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.content__item-img-2 {
+    margin-right: 100px;
+    border-radius: 60% 40% 63% 37% / 78% 0% 100% 22%;
+    /* margin-bottom: 100px; */
+}
+
+.fishing {
+    position: absolute;
+    left: 84px;
+    top: 27%;
+    font-weight: 400;
+    font-size: 35px;
+    color: burlywood;
+}
+
+.text-2 {
+    padding-top: 30px;
+}
+
+.future {
+    /* margin-bottom: 40px; */
+    padding: 30px 15px;
+    color: burlywood;
+    font-size: 30px;
+    position: absolute;
+    right: 300px;
+    /* top: -100px; */
+    top: 63%;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.content3 {
+    padding: 50px;
+}
+
+.content__item-image1 {
+    /* display: block;/ */
+    width: 126px;
+    height: 180px;
+    /* background-color: red; */
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+
+/*I have a suite available from now. It is inside an apartment and you’ll have your own shower and toilet in your own room. There’s a bath too but is separate which you can use. Public transport is a minute walk and the bus goes straight to the city center and the Forestside shopping center is close by too. There is also a small Tesco shop if needed closer to the apartment. You will be undisturbed all day as I will be at work from 1 pm to after 10 pm except Mondays. Mondays are usually my time for fly fishing. Morning is also quiet as I’m learning Javascript. I live alone with no noisy neighbors as most are elderly and our own private car park out front. Please contact me if you are interested.07523238878 thanks  */
